@@ -1,12 +1,5 @@
-import BTComponent from './BTComponent/BTComponent';
-import BindingData from './BindingData/BindingData';
-import RenderWithCondition from './RenderWithCondition/RenderWithCondition';
-import HandleEvent from './HandleEvent/HandleEvent';
-import StyleComponent from './StyleComponent/StyleComponent';
-import RenderWithMap from './RenderWithMap/RenderWithMap';
-import DemoState from './State/DemoState';
-import DemoProps from './Props/DemoProps';
-import BaiTapCar from './State/BaiTapCar';
+
+import ShoeShop from './BTShoeShop/ShoeShop';
 
 // component lớn nhất trong dự án
 // 2 loại component
@@ -20,14 +13,8 @@ import BaiTapCar from './State/BaiTapCar';
 function App() {
   return (
     <div className="App">
-      <BTComponent ></BTComponent>
-    <BindingData></BindingData>
-    <RenderWithCondition></RenderWithCondition>
-    <HandleEvent></HandleEvent>
-    <StyleComponent></StyleComponent>
-    <RenderWithMap></RenderWithMap>
-    <DemoState></DemoState>
-    <DemoProps></DemoProps>
+    
+    <ShoeShop></ShoeShop>
     </div>
   );
 }
